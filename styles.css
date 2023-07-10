@@ -1,3 +1,20 @@
+#blurb {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
 #layer_1 {
   transform: scale(1);
   position: relative;
