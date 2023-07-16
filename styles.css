@@ -1,4 +1,4 @@
-#blurb {
+#logo {
   position: fixed;
   top: 5%;
   left: 50%;
@@ -8,10 +8,25 @@
   text-align: center;
   color:#00d992;
   font-family: SuisseIntl, Helvetica, Arial, sans-serif;
-  /*font-feature-settings: "ss02", "ss03", "ss09", "ss06", "ss07", "ss08", "case";*/
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 60px;
+  z-index: 9999;
+}
+#blurb {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  color:#9b9fa0;
+  font-family: SuisseIntl, Helvetica, Arial, sans-serif;
   font-size: 24px;
-  font-weight: 300;
-  line-height: 1.3em;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+  line-height: 30px;
   z-index: 9999;
 }
 
