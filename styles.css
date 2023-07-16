@@ -6,12 +6,12 @@
   width: 500px;
   height: 200px;
   text-align: center;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 1.3em;
+  color:#00d992;
+  font-family: SuisseIntl, Helvetica, Arial, sans-serif;
+  /*font-feature-settings: "ss02", "ss03", "ss09", "ss06", "ss07", "ss08", "case";*/
+  font-size: 24px;
+  font-weight: 300;
   line-height: 1.3em;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 9999;
 }
 
@@ -27,7 +27,7 @@ html, body {
 }
 
 .bg {
-  background: radial-gradient(#008DC3, #003B60);
+  background: radial-gradient(#181b1f, #22252b);
   position: absolute;
   top: 0;
   left: 0;
@@ -40,11 +40,11 @@ html, body {
   transform: translateX(4px);
 }
 
-#oksolotl {
-  -moz-animation: oksolotl 3s infinite cubic-bezier(.43, .72, .48, .7);
-  -webkit-animation: oksolotl 3s infinite cubic-bezier(.43, .72, .48, .7);
-  -o-animation: oksolotl 3s infinite cubic-bezier(.43, .72, .48, .7);
-  animation: oksolotl 3s infinite cubic-bezier(.43, .72, .48, .7);
+#algolotl {
+  -moz-animation: algolotl 4s infinite cubic-bezier(.43, .72, .48, .7);
+  -webkit-animation: algolotl 4s infinite cubic-bezier(.43, .72, .48, .7);
+  -o-animation: algolotl 4s infinite cubic-bezier(.43, .72, .48, .7);
+  animation: algolotl 4s infinite cubic-bezier(.43, .72, .48, .7);
 }
 
 #tail {
@@ -258,7 +258,7 @@ html, body {
   }
 }
 
-@keyframes oksolotl {
+@keyframes algolotl {
   0% {
     transform: translateY(0px)
   }
@@ -335,13 +335,6 @@ html, body {
     transform: rotate(-6deg) translateX(10px)
   }
 }
-
-/* #head:hover {
-  transition: all 0.3s ease;
-  box-shadow: 1px 1px 1px red;
-  transform-origin: 70% 70%;
-  transform: scale(2);
-} */
 
 #head:hover {
   animation: scale-glow .3s linear infinite;
