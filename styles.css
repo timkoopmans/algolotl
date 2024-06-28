@@ -29,6 +29,17 @@
   line-height: 30px;
   z-index: 9999;
 }
+#status {
+  position: relative;
+  top: 30%
+  color:#9b9fa0;
+  font-family: SuisseIntl, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  z-index: 9999;
+}
 
 #layer_1 {
   transform: scale(1);
